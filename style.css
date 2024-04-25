@@ -1,0 +1,67 @@
+:root {
+  --mavi: #6bc1f1;
+}
+header {
+  background: url("img/bgimage.jpg") center/cover;
+}
+.bg-mavi {
+  background-color: var(--mavi);
+}
+.bg-goy {
+  background-color: #072035;
+}
+.bg-boz {
+  background-color: #f1f1f1;
+}
+.text-mavi {
+  color: var(--mavi);
+}
+.vh-50 {
+  min-height: 50vh;
+}
+.features:hover {
+  opacity: 0.5;
+}
+.serviceimgs {
+  width: 100px;
+  height: 100px;
+}
+.carousel-caption,
+.carousel-item {
+  height: 200px;
+}
+.carousel-indicators button {
+  width: 45px !important;
+  height: 45px !important;
+  border-radius: 50%;
+}
+.carousel-indicators button.active {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.carousel-inner h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+.carousel-inner p {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+footer p {
+  opacity: 0.7;
+  font-size: 0.8rem;
+  line-height: 30px;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+footer h5 {
+  margin-top: 40px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 400;
+  font-family: "Roboto";
+}
